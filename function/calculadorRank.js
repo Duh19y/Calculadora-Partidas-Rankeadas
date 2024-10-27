@@ -1,10 +1,7 @@
 let saldoVitorias = saberRank(240, 157)
 
-
 function saberRank(vitorias, derrotas){
     let resultVD = vitorias - derrotas
-
-    
 
     let rank 
     if (resultVD <= 10){
